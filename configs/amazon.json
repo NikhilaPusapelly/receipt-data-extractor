@@ -1,0 +1,10 @@
+{
+  "store_name": "Amazon",
+  "keywords": ["amazon"],
+  "currency": "USD",
+  "item_pattern": "([A-Za-z][A-Za-z0-9 \\-\\'\\./]+?)\\s*\\$([\\d]+\\.\\d{2})",
+  "total_pattern": "order\\s+total[:\\s]+\\$?([\\d,]+\\.\\d{2})",
+  "skip_words": ["subtotal", "tax", "total", "shipping", "order", "card", "thank"],
+  "date_format": "Long",
+  "notes": "Order receipts use 'ORDER TOTAL'. Shipping line must be skipped."
+}

@@ -1,0 +1,10 @@
+{
+  "store_name": "Whole Foods Market",
+  "keywords": ["whole foods", "wholefoods"],
+  "currency": "USD",
+  "item_pattern": "([A-Za-z][A-Za-z0-9 \\-\\'\\.]+ ?(?:\\d+oz|\\d+ct|\\d+pk)??)\\s*\\$([\\d]+\\.\\d{2})",
+  "total_pattern": "(?<!sub)\\btotal[:\\s]+\\$?([\\d,]+\\.\\d{2})",
+  "skip_words": ["subtotal", "tax", "total", "thank", "change", "cash"],
+  "date_format": "US",
+  "notes": "Prices right-aligned with 2+ spaces. Tax shown as 'Tax (X.XX%)'"
+}

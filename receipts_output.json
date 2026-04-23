@@ -1,0 +1,97 @@
+{
+  "whole_foods": {
+    "store": "Whole Foods Market",
+    "date": "04/15/2024",
+    "currency": "USD",
+    "items": [
+      {
+        "name": "Organic Bananas",
+        "price": 1.29
+      },
+      {
+        "name": "Almond Milk 64oz",
+        "price": 4.99
+      },
+      {
+        "name": "Greek Yogurt 32oz",
+        "price": 6.49
+      },
+      {
+        "name": "Free Range Eggs 12ct",
+        "price": 5.79
+      },
+      {
+        "name": "Sourdough Bread",
+        "price": 3.99
+      },
+      {
+        "name": "Sparkling Water 6pk",
+        "price": 7.49
+      }
+    ],
+    "item_count": 6,
+    "items_subtotal": 30.04,
+    "subtotal": 29.99,
+    "tax": 2.47,
+    "total": 32.46,
+    "confidence": 1.0
+  },
+  "amazon": {
+    "store": "Amazon",
+    "date": "March 22, 2024",
+    "currency": "USD",
+    "items": [
+      {
+        "name": "Logitech MX Master 3",
+        "price": 99.99
+      },
+      {
+        "name": "USB-C Hub 7-Port",
+        "price": 34.95
+      },
+      {
+        "name": "Cable Management Kit",
+        "price": 12.49
+      },
+      {
+        "name": "Wireless Charging Pad",
+        "price": 27.99
+      }
+    ],
+    "item_count": 4,
+    "items_subtotal": 175.42,
+    "subtotal": 175.42,
+    "tax": 14.48,
+    "total": 189.9,
+    "confidence": 1.0
+  },
+  "starbucks": {
+    "store": "Starbucks",
+    "date": "2024-01-08",
+    "currency": "USD",
+    "items": [
+      {
+        "name": "Caramel Macchiato Venti",
+        "price": 6.75
+      },
+      {
+        "name": "Blueberry Scone",
+        "price": 3.45
+      },
+      {
+        "name": "Cold Brew Grande",
+        "price": 5.25
+      },
+      {
+        "name": "Cheese Danish",
+        "price": 3.95
+      }
+    ],
+    "item_count": 4,
+    "items_subtotal": 19.4,
+    "subtotal": 19.4,
+    "tax": 1.6,
+    "total": 21.0,
+    "confidence": 1.0
+  }
+}

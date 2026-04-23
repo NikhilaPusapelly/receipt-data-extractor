@@ -1,0 +1,10 @@
+{
+  "store_name": "Starbucks",
+  "keywords": ["starbucks"],
+  "currency": "USD",
+  "item_pattern": "([A-Za-z][A-Za-z0-9 \\-\\']+?)\\s*\\$([\\d]+\\.\\d{2})",
+  "total_pattern": "(?<!sub)\\btotal[:\\s]+\\$?([\\d,]+\\.\\d{2})",
+  "skip_words": ["subtotal", "tax", "total", "card", "visa", "thank", "am", "pm"],
+  "date_format": "ISO",
+  "notes": "Time printed on same line as date — strip before matching items."
+}
