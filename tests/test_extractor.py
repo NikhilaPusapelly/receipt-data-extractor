@@ -12,7 +12,7 @@ from pathlib import Path
 # Allow imports from parent directory
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from receipt_extractor import (
+from backend.receipt_extractor import (
     parse_receipt,
     extract_date,
     extract_items,
